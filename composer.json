@@ -35,6 +35,7 @@
         "colinmollenhour/php-redis-session-abstract": "~1.4.0",
         "composer/composer": "^1.6",
         "elasticsearch/elasticsearch": "~7.6",
+        "frenet/frenet-magento2": "^2.1",
         "guzzlehttp/guzzle": "^6.3.3",
         "imaginationmedia/correios": "^1.2",
         "laminas/laminas-captcha": "^2.7.1",
