@@ -4,43 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1296d772abf1cfa137f184ad0ef40d83",
+    "content-hash": "27e4247e019493d410912cc6251b744d",
     "packages": [
-        {
-            "name": "bleez/correios",
-            "version": "0.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Bleez/Bleez-Correios.git",
-                "reference": "69b865edadc1fbe848ffafbd3f6178c77565ad43"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Bleez/Bleez-Correios/zipball/69b865edadc1fbe848ffafbd3f6178c77565ad43",
-                "reference": "69b865edadc1fbe848ffafbd3f6178c77565ad43",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.1.0",
-                "tcesarpinho/php-sigep": ">=0.0.1"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Bleez\\Correios\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "Modulo correios magento 2",
-            "time": "2016-04-08T21:20:13+00:00"
-        },
         {
             "name": "braintree/braintree_php",
             "version": "3.35.0",
@@ -919,6 +884,46 @@
                 "url"
             ],
             "time": "2019-07-01T23:21:34+00:00"
+        },
+        {
+            "name": "imaginationmedia/correios",
+            "version": "1.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/imagination-media/correios.git",
+                "reference": "8c31a96d4ef69475e694c5f272779318d6b85690"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/imagination-media/correios/get/8c31a96d4ef69475e694c5f272779318d6b85690.zip",
+                "reference": "8c31a96d4ef69475e694c5f272779318d6b85690",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ImaginationMedia\\Correios\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Ludgero Miura",
+                    "email": "igor@imaginationmedia.com",
+                    "homepage": "http://www.imaginationmedia.com.br/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Correios shipping method integration for Magento 2.x",
+            "homepage": "https://bitbucket.org/imagination-media/correios",
+            "time": "2019-05-10T18:36:39+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -5074,86 +5079,6 @@
                 "standards"
             ],
             "time": "2019-11-18T17:27:11+00:00"
-        },
-        {
-            "name": "tcesarpinho/php-sigep",
-            "version": "0.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tcesarpinho/php-sigep.git",
-                "reference": "1e5fc62f26a124c6d1c7bcbcbdcc8d14473f0e55"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tcesarpinho/php-sigep/zipball/1e5fc62f26a124c6d1c7bcbcbdcc8d14473f0e55",
-                "reference": "1e5fc62f26a124c6d1c7bcbcbdcc8d14473f0e55",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.1.0",
-                "tcesarpinho/php-sigep-fpdf": ">=0.0.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev",
-                    "dev-develop": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "PhpSigep": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rafael Stavarengo",
-                    "email": "faelsta@gmail.com"
-                }
-            ],
-            "description": "Integração com Web Service do Correios. Gera etiquetas, consulta preços e prazos, imprime etiquetas e PLP, etc.",
-            "keywords": [
-                "correios",
-                "sigep"
-            ],
-            "time": "2016-04-08T21:14:32+00:00"
-        },
-        {
-            "name": "tcesarpinho/php-sigep-fpdf",
-            "version": "0.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tcesarpinho/php-sigep-fpdf.git",
-                "reference": "3df470f14e861fd7f9b10232364a9444b2fc736b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tcesarpinho/php-sigep-fpdf/zipball/3df470f14e861fd7f9b10232364a9444b2fc736b",
-                "reference": "3df470f14e861fd7f9b10232364a9444b2fc736b",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "PhpSigepFPDF.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Stavarengo",
-                    "email": "faelsta@gmail.com"
-                }
-            ],
-            "description": "Unofficial FPDF library - Cópia do FPDF 1.7 usado pelo projeto stavarengo/php-sigep.",
-            "time": "2016-04-08T21:12:21+00:00"
         },
         {
             "name": "tedivm/jshrink",
@@ -9837,6 +9762,86 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2020-02-03T10:46:43+00:00"
+        },
+        {
+            "name": "tcesarpinho/php-sigep",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tcesarpinho/php-sigep.git",
+                "reference": "1e5fc62f26a124c6d1c7bcbcbdcc8d14473f0e55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tcesarpinho/php-sigep/zipball/1e5fc62f26a124c6d1c7bcbcbdcc8d14473f0e55",
+                "reference": "1e5fc62f26a124c6d1c7bcbcbdcc8d14473f0e55",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.0",
+                "tcesarpinho/php-sigep-fpdf": ">=0.0.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev",
+                    "dev-develop": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "PhpSigep": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Stavarengo",
+                    "email": "faelsta@gmail.com"
+                }
+            ],
+            "description": "Integração com Web Service do Correios. Gera etiquetas, consulta preços e prazos, imprime etiquetas e PLP, etc.",
+            "keywords": [
+                "correios",
+                "sigep"
+            ],
+            "time": "2016-04-08T21:14:32+00:00"
+        },
+        {
+            "name": "tcesarpinho/php-sigep-fpdf",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tcesarpinho/php-sigep-fpdf.git",
+                "reference": "3df470f14e861fd7f9b10232364a9444b2fc736b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tcesarpinho/php-sigep-fpdf/zipball/3df470f14e861fd7f9b10232364a9444b2fc736b",
+                "reference": "3df470f14e861fd7f9b10232364a9444b2fc736b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PhpSigepFPDF.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stavarengo",
+                    "email": "faelsta@gmail.com"
+                }
+            ],
+            "description": "Unofficial FPDF library - Cópia do FPDF 1.7 usado pelo projeto stavarengo/php-sigep.",
+            "time": "2016-04-08T21:12:21+00:00"
         },
         {
             "name": "theseer/fdomdocument",
