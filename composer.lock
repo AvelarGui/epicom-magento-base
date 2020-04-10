@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "27e4247e019493d410912cc6251b744d",
+    "content-hash": "d1c09ecabd3f03504013c4f461783bff",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -3501,6 +3501,56 @@
             "time": "2019-11-26T15:09:40+00:00"
         },
         {
+            "name": "mercadopago/magento2-plugin",
+            "version": "3.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mercadopago/cart-magento2.git",
+                "reference": "4f8e0d8bbbe7a5660115b1f644a4212d6ea67b7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mercadopago/cart-magento2/zipball/4f8e0d8bbbe7a5660115b1f644a4212d6ea67b7b",
+                "reference": "4f8e0d8bbbe7a5660115b1f644a4212d6ea67b7b",
+                "shasum": ""
+            },
+            "require": {
+                "magento/magento-composer-installer": "*"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "~1.2",
+                "lusitanian/oauth": "~0.3 <=0.7.0",
+                "magento/product-community-edition": "2.*",
+                "pdepend/pdepend": "2.2.2",
+                "phpmd/phpmd": "@stable",
+                "phpunit/phpunit": "4.1.0",
+                "sjparkinson/static-review": "~4.1",
+                "squizlabs/php_codesniffer": "1.5.3"
+            },
+            "type": "magento2-component",
+            "autoload": {
+                "psr-4": {
+                    "MercadoPago\\Core\\": "src/MercadoPago/Core"
+                },
+                "files": [
+                    "src/MercadoPago/Core/registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Mercado Pago",
+                    "email": "info@mercadopago.com"
+                }
+            ],
+            "description": "Mercado Pago Magento 2 Plugin",
+            "time": "2020-03-31T17:11:46+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.25.3",
             "source": {
@@ -3577,6 +3627,57 @@
                 "psr-3"
             ],
             "time": "2019-12-20T14:15:16+00:00"
+        },
+        {
+            "name": "pagarme/pagarme-php",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pagarme/pagarme-php.git",
+                "reference": "cb19025c63fb526ad137c6c4ff6fa2c33224b2e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pagarme/pagarme-php/zipball/cb19025c63fb526ad137c6c4ff6fa2c33224b2e2",
+                "reference": "cb19025c63fb526ad137c6c4ff6fa2c33224b2e2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">5.3"
+            },
+            "require-dev": {
+                "simpletest/simpletest": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/Pagarme"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagar.me and contributors",
+                    "homepage": "https://github.com/pagarme/pagarme-php/graphs/contributors"
+                }
+            ],
+            "description": "Pagar.me PHP Library",
+            "homepage": "http://pagar.me",
+            "keywords": [
+                "api",
+                "pagamento brasil",
+                "pagamentos",
+                "pagar.me",
+                "pagarme",
+                "payments brazil"
+            ],
+            "time": "2016-06-29T04:06:22+00:00"
         },
         {
             "name": "paragonie/random_compat",
