@@ -70,6 +70,7 @@
         "magento/magento-composer-installer": ">=0.1.11",
         "magento/zendframework1": "~1.14.2",
         "mercadopago/magento2-plugin": "3.*",
+        "moip/magento2": "^1.0",
         "monolog/monolog": "^1.17",
         "pagarme/pagarme-php": "2.0",
         "paragonie/sodium_compat": "^1.6",
