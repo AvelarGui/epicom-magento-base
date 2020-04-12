@@ -81,6 +81,7 @@
         "phpseclib/phpseclib": "2.0.*",
         "rafaelstz/traducao_magento2_pt_br": "dev-master",
         "ramsey/uuid": "~3.8.0",
+        "ricardomartins/pagseguro": "dev-master",
         "symfony/console": "~4.4.0",
         "symfony/event-dispatcher": "~4.4.0",
         "symfony/process": "~4.4.0",
