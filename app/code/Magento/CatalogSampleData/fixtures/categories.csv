@@ -1,7 +1,7 @@
 name,url_key,path,active,is_anchor,include_in_menu,position,display_mode,custom_layout_update
-Categoria 1,categoria1,,1,1,1,,PAGE,
+Categoria 1,categoria1,,1,1,1,,,
 Categoria 2,categoria2,,1,1,1,,,
 Categoria 3,categoria3,,1,1,1,,,
 Categoria 4,categoria4,,1,1,1,,,
-Categoria 5,categoria5,,1,1,1,,PAGE,
+Categoria 5,categoria5,,1,1,1,,,
 Categoria 6,categoria6,,1,1,1,,,
