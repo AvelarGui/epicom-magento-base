@@ -1,0 +1,188 @@
+/*Login layout*/
+.page-layout-admin-login {
+    background: #231b32 !important;
+}
+
+.page-layout-admin-login .page-wrapper{
+    box-shadow: none !important;
+}
+
+.page-layout-admin-login .admin__legend{
+    color: #5680E9 !important;
+}
+
+a.action-forgotpassword{
+    color: #c32d60 !important;
+}
+
+footer.login-footer{
+    color: #fff;
+}
+
+/*Content*/
+.menu-wrapper a.logo{
+    background-color: #fff;
+    border-right: 1px solid #e6e4e4;
+}
+
+.notices-wrapper{ display: none;}
+
+/*button primary*/
+.action-primary,
+.abs-action-primary,
+button.primary,
+.page-actions > button.action-primary,
+.page-actions .page-actions-buttons > button.action-primary,
+.page-actions > button.primary,
+.page-actions .page-actions-buttons > button.primary,
+.block-footer .action-add.primary,
+.page-actions > .block-footer .action-add.action-primary,
+.page-actions .page-actions-buttons > .block-footer .action-add.action-primary,
+.page-actions > .block-footer .action-add.primary,
+.page-actions .page-actions-buttons > .block-footer .action-add.primary,
+.page-actions-buttons button.ordersuccess-current {
+    background-color: #c32d60 !important;
+    border-color: #c32d60 !important;
+    color: #fff !important;
+    text-shadow: none !important;
+}
+
+/*button hover, active, focus*/
+.action-primary:hover,
+.action-primary:active,
+.action-primary:focus,
+.abs-action-primary:hover,
+.abs-action-primary:active,
+.abs-action-primary:focus,
+button.primary:hover,
+button.primary:active,
+button.primary:focus,
+.page-actions > button.action-primary:hover,
+.page-actions > button.action-primary:active,
+.page-actions > button.action-primary:focus,
+.page-actions .page-actions-buttons > button.action-primary:hover,
+.page-actions .page-actions-buttons > button.action-primary:active,
+.page-actions .page-actions-buttons > button.action-primary:focus,
+.page-actions > button.primary:hover,
+.page-actions > button.primary:active,
+.page-actions > button.primary:focus,
+.page-actions .page-actions-buttons > button.primary:hover,
+.page-actions .page-actions-buttons > button.primary:active,
+.page-actions .page-actions-buttons > button.primary:focus,
+.block-footer .action-add.primary:hover,
+.block-footer .action-add.primary:active,
+.block-footer .action-add.primary:focus,
+.page-actions > .block-footer .action-add.action-primary:hover,
+.page-actions > .block-footer .action-add.action-primary:active,
+.page-actions > .block-footer .action-add.action-primary:focus,
+.page-actions .page-actions-buttons > .block-footer .action-add.action-primary:hover,
+.page-actions .page-actions-buttons > .block-footer .action-add.action-primary:active,
+.page-actions .page-actions-buttons > .block-footer .action-add.action-primary:focus,
+.page-actions > .block-footer .action-add.primary:hover,
+.page-actions > .block-footer .action-add.primary:active,
+.page-actions > .block-footer .action-add.primary:focus,
+.page-actions .page-actions-buttons > .block-footer .action-add.primary:hover,
+.page-actions .page-actions-buttons > .block-footer .action-add.primary:active,
+.page-actions .page-actions-buttons > .block-footer .action-add.primary:focus,
+.admin__page-nav-item._active, 
+.admin__page-nav-item.ui-state-active{
+    background-color: #c32d60 !important;
+    border-color: #c32d60 !important;
+}
+
+/* .page-header {
+    padding: 1.5rem 5rem !important;
+}
+.page-content{
+    padding-left: 5rem !important;
+} */
+
+/*font primary color*/
+.page-layout-admin-login .admin__legend,
+.dashboard-totals-item:first-child .price,
+.dashboard-item-primary:first-child .dashboard-sales-value{
+    color: #c32d60!important;
+}
+
+/* .menu-wrapper{
+    width: 11.8rem !important;
+} */
+
+.menu-wrapper:before,
+.admin__menu [class*='level-']:not(.level-0) a:hover {
+    background-color: #fff !important;
+    border-right: 1px solid #e6e4e4;
+    /* width: 11.8rem !important; */
+}
+.data-grid th{
+    background-color: #231b32 !important;
+}
+.admin__menu .level-0>a{
+    color: #545454 !important;
+    align-items: center !important; 
+    /* display: flex !important;
+    align-items: center !important; */
+}
+.admin__menu .submenu-title {
+    color: #545454 !important;
+}
+.admin__menu .submenu a {
+    color: #545454 !important;
+}
+.admin__menu .level-0:hover>a,
+.admin__menu .level-0>.submenu,
+.admin__menu .level-0._active>a{
+    background-color: #efefef  !important;
+}
+
+.admin__menu .level-0>.submenu{
+    box-shadow: none !important;
+}
+
+.admin__menu .submenu .parent .submenu-group-title{
+    color: #545454 !important;
+}
+.dashboard-advanced-reports{
+    display: none !important;
+}
+/* .admin__menu .level-0>a:before{
+    width: 30px;
+    margin-right: 10px;
+} */
+
+.admin__menu .action-close:before{
+    color: #545454 !important;
+}
+
+.tabs-horiz .ui-state-active .ui-tabs-anchor{
+    border-top: .4rem solid #c32d60  !important;
+}
+
+/* Admin menu */
+.admin__menu li#menu-magento-marketplace-partners,
+.admin__menu li#menu-imaginationmedia-correios-imaginationmedia-general{
+    display: none;
+}
+
+/* Footer */
+.footer-legal-system{ display: none;}
+.copyright .link-copyright{ display: none;}
+
+.footer-legal p {
+    display: none;
+}
+.footer-legal:after {
+    content: 'Copyright ©️ 2020 Epicom Technology. Todos os direitos reservados.';
+}
+
+.login-footer {
+    font-size: 0 !important;
+}
+.login-footer:before {
+    content: 'Copyright ©️ 2020 Epicom Technology. Todos os direitos reservados.';
+    font-size: 12px;
+}
+
+/* .page-main-actions{ display: none;} */
+
+
