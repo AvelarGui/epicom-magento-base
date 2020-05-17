@@ -1,0 +1,67 @@
+<?php
+/**
+ * Mageplaza
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Mageplaza.com license that is
+ * available through the world-wide-web at this URL:
+ * https://www.mageplaza.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Mageplaza
+ * @package     Mageplaza_BannerSlider
+ * @copyright   Copyright (c) Mageplaza (https://www.mageplaza.com/)
+ * @license     https://www.mageplaza.com/LICENSE.txt
+ */
+
+use Mageplaza\BannerSlider\Model\Config\Source\Type;
+
+$banners = $block->getBannerCollection();
+if (count($banners)) : ?>
+    <?php
+    $sliderId      = $block->getSliderId() . uniqid('-', false);
+    $sliderOptions = $block->getBannerOptions(); ?>
+
+            <?php $iterator = 1; ?>
+            <div class="supportBanners">
+                <?php foreach ($banners as $banner) : ?>
+                    <?php
+                    $bnType  = $banner->getType();
+                    $bnTitle = $banner->getTitle();
+                    $bnUrl   = $banner->getUrlBanner();
+                    $bnImg   = $banner->getImageUrl();
+                    ?>
+                    <?php if (($bnType === Type::CONTENT && empty($banner->getContent())) || ($bnType === Type::IMAGE && empty($banner->getImage()))) : continue; ?>
+                    <?php endif; ?>
+                     
+                    <?php if ($bnType === Type::CONTENT) : ?>
+                        <div class="item-content">
+                            <?= $block->getPageFilter($banner->getContent()); ?>
+                        </div>
+                    <?php else : #image type?>
+                        <div class="item">
+                            <?php if (!empty($bnUrl)) : ?>
+                                <a href="<?= $bnUrl ?>" <?= ($banner->getNewtab() === '1') ? 'target="_blank"' : '' ?>>
+                                    <?php if (!empty($bnTitle)) : ?>
+                                        <div class="banner-title"><?= $bnTitle ?></div>
+                                    <?php endif; ?>
+                                    <img class="img-responsive" src="<?= $bnImg ?>">
+                                </a>
+                            <?php else : ?>
+                                <img class="img-responsive" src="<?= $bnImg ?>" title="<?= $bnTitle ?>">
+                            <?php endif; ?>
+                        </div>
+                    <?php endif; ?>
+                     
+                <?php endforeach; ?>
+
+        <?= $block->getPagerHtml() ?>
+    </div>
+
+    
+<?php endif; ?>
