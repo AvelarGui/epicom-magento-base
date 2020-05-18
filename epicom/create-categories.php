@@ -54,10 +54,10 @@
 		$category_obj->setIsActive(true);
 		$category_obj->setUrlKey($clean_url);
 
-		$category_obj->setData('description', 'description');
+		//$category_obj->setData('description', 'description');
 		$category_obj->setParentId($root_cat_id->getId());
 		$mediaAttribute = array ('image', 'small_image', 'thumbnail');
-		$category_obj->setImage('category.jpg', $mediaAttribute, true, false);
+		//$category_obj->setImage('category.jpg', $mediaAttribute, true, false);
 		// add image at Path of  pub/meida/catalog/category/catagory_img.png
 		// add store id 
 		$category_obj->setStoreId($store_Id);

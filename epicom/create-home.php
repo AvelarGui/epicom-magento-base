@@ -24,13 +24,13 @@
     $PageFactory = $objectManager->create('Magento\Cms\Model\PageFactory');
     $homeContent = '';
 
-    $homeContent = $homeContent.'<p>{{block class="Mageplaza\BannerSlider\Block\Widget" template="Mageplaza_BannerSlider::bannersliderSupport.phtml" slider_id="3"}}</p>';
+    $homeContent = $homeContent.'<p>{{block class="Mageplaza\BannerSlider\Block\Widget" template="Mageplaza_BannerSlider::bannersliderSupport.phtml" slider_id="2"}}</p>';
 
     $homeContent = $homeContent.'<p>{{widget type="Magento\CatalogWidget\Block\Product\ProductsList" title="Promoções" show_pager="0" products_count="5" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`'.$novidadesId.'`^]^]"}}</p>';
  
     $homeContent = $homeContent.'<p>{{widget type="Magento\CatalogWidget\Block\Product\ProductsList" title="Novidades" show_pager="0" products_count="5" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`'.$promocoesId.'`^]^]"}}</p>';
 
-    $homeContent = $homeContent.'<p>{{block class="Mageplaza\BannerSlider\Block\Widget" template="Mageplaza_BannerSlider::bannersliderSupport.phtml" slider_id="4"}}</p>';
+    $homeContent = $homeContent.'<p>{{block class="Mageplaza\BannerSlider\Block\Widget" template="Mageplaza_BannerSlider::bannersliderSupport.phtml" slider_id="3"}}</p>';
 
     $homeContent = $homeContent.'<p>{{widget type="Magento\CatalogWidget\Block\Product\ProductsList" title="Saldão" show_pager="0" products_count="5" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`'.$promocoesId.'`^]^]"}}</p>';
 

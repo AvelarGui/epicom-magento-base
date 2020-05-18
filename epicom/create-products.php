@@ -54,8 +54,9 @@
 		$filesystem = $objectManager->create('\Magento\Framework\Filesystem');
 		$mediaDirectory = $filesystem->getDirectoryWrite(\Magento\Framework\App\Filesystem\DirectoryList::MEDIA);
 		$mediaPath = $mediaDirectory->getAbsolutePath();
-		$imagePath = $mediaPath .'import/sample.jpg'; // path of the image
-		$product->addImageToMediaGallery($imagePath, array('image', 'small_image', 'thumbnail'), false, false);
+		$imagePath = $mediaPath .'epicom/sample/products'; // path of the image
+		$product->addImageToMediaGallery($imagePath.$_product['image1'], array('image', 'small_image', 'thumbnail'), false, false);
+		$product->addImageToMediaGallery($imagePath.$_product['image2'], null, false, false);
 		$product->save();
 
 		//Add categories in product
