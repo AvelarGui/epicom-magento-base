@@ -4706,48 +4706,6 @@
             "time": "2020-03-23T09:12:05+00:00"
         },
         {
-            "name": "rafaelstz/traducao_magento2_pt_br",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/rafaelstz/traducao_magento2_pt_br.git",
-                "reference": "ee346a9abbc0e03f69dd0ce661924f094e3967f7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/rafaelstz/traducao_magento2_pt_br/zipball/ee346a9abbc0e03f69dd0ce661924f094e3967f7",
-                "reference": "ee346a9abbc0e03f69dd0ce661924f094e3967f7",
-                "shasum": ""
-            },
-            "require": {
-                "magento/framework": "*"
-            },
-            "type": "magento2-language",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Rafael Corrêa Gomes",
-                    "homepage": "https://github.com/rafaelstz"
-                },
-                {
-                    "name": "Magento official translations project for Magento 2",
-                    "homepage": "https://crowdin.com/project/magento-2"
-                }
-            ],
-            "description": "Tradução Magento 2 para Português do Brasil oficial da Magento ",
-            "homepage": "https://github.com/rafaelstz/traducao_magento2_pt_br",
-            "time": "2020-04-02T16:50:13+00:00"
-        },
-        {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "source": {
