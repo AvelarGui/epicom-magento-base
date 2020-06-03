@@ -13,9 +13,8 @@
 	$query = "SELECT * FROM theme WHERE theme_title='Epicom Base'";
 	$results = $resourceConnection->getConnection()->fetchAll($query);
 	$themeId = $results[0]['theme_id'];
-	echo $themeId;
+	$themeId;
 
-	
 	// Set theme id
     $configInterface = $obj->get("Magento\Framework\App\Config\ConfigResource\ConfigInterface"); 
     $configInterface->saveConfig('design/theme/theme_id', $themeId, 'stores', 1);

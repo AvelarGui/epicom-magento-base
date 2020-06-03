@@ -3,11 +3,20 @@
         <referenceBlock name="logo">
             <arguments>
                 <argument name="logo_file" xsi:type="string">images/logo.png</argument>
-               <!--  <argument name="logo_img_width" xsi:type="number">300</argument>
-                <argument name="logo_img_height" xsi:type="number">300</argument> -->
+                 <argument name="logo_img_width" xsi:type="number">300</argument>
+                <argument name="logo_img_height" xsi:type="number">300</argument> 
             </arguments>
         </referenceBlock>
 
+       <!--  <cms_index_defaultindex> -->
+            <!-- <referenceContainer name="page.top">
+                <block class="Mageplaza\BannerSlider\Block\Widget" name="bannerslider" after="-">
+                    <arguments>
+                        <argument name="slider_id" xsi:type="string">1</argument>
+                    </arguments>
+                </block>
+            </referenceContainer> -->
+        <!-- </cms_index_defaultindex> -->
 
 	    <!-- <referenceContainer name="footer-container">
             <block class="Magento\Theme\Block\Html\Footer" name="footer" template="html/footer.phtml"/>

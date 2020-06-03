@@ -9,7 +9,7 @@
 <sections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:noNamespaceSchemaLocation="urn:magento:mftf:Page/etc/SectionObject.xsd">
     <section name="AdminBlockGridSection">
-        <element name="search" type="input" selector="//input[@placeholder='Search by keyword']"/>
+        <element name="search" type="input" selector="//input[@placeholder='Buscar por palavra chave']"/>
         <element name="searchButton" type="button" selector="//div[@class='data-grid-search-control-wrap']//label[@class='data-grid-search-label']/following-sibling::button[@class='action-submit']"/>
         <element name="checkbox" type="checkbox" selector="//label[@class='data-grid-checkbox-cell-inner']//input[@class='admin__control-checkbox']"/>
         <element name="select" type="select" selector="//tr[@class='data-row']//button[@class='action-select']"/>

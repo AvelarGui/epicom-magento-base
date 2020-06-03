@@ -100,7 +100,8 @@ button.primary:focus,
 /*font primary color*/
 .page-layout-admin-login .admin__legend,
 .dashboard-totals-item:first-child .price,
-.dashboard-item-primary:first-child .dashboard-sales-value{
+.dashboard-item-primary:first-child .dashboard-sales-value,
+.popup-loading{
     color: #c32d60!important;
 }
 
@@ -168,21 +169,35 @@ button.primary:focus,
 .footer-legal-system{ display: none;}
 .copyright .link-copyright{ display: none;}
 
-.footer-legal p {
+/*.footer-legal p {
     display: none;
 }
 .footer-legal:after {
     content: 'Copyright ©️ 2020 Epicom Technology. Todos os direitos reservados.';
 }
-
-.login-footer {
+*/
+/*.login-footer {
     font-size: 0 !important;
 }
 .login-footer:before {
     content: 'Copyright ©️ 2020 Epicom Technology. Todos os direitos reservados.';
     font-size: 12px;
-}
+}*/
 
 /* .page-main-actions{ display: none;} */
+
+
+
+ul[role="menu"] [data-ui-id^="menu-mageplaza"] strong:before{
+    display: none;
+}
+
+ul.item-bannerslider ul li.item-configuration{ 
+    display: none;
+}
+
+
+
+
 
 

@@ -22,13 +22,18 @@
 	// $sql = "DELETE FROM mageplaza_bannerslider_slider WHERE slider_id=6";
 	// $resourceConnection->getConnection()->query($sql);
 
+	// Update SLIDERS
+	// $tableName =  'mageplaza_bannerslider_slider';
+	// $sql = "UPDATE $tableName SET `location` = '' WHERE $tableName.`slider_id` = 1";
+	// $resourceConnection->getConnection()->query($sql);
+
+
 	// Create Sliders
 	$date = date("Y-m-d H:i:s");
 	
 	$principal = [
 		'name' => 'Banner Principal',
 		'status' => '1',
-		'location' => 'cms_index_index.content-top',
 		'store_ids' => '0',
 		'customer_group_ids' => '0,1,2,3',
 		'priority' => 0,

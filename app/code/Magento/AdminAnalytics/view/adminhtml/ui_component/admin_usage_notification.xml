@@ -46,7 +46,7 @@
     </dataSource>
     <modal name="notification_modal_1" component="Magento_AdminAnalytics/js/modal/component">
         <settings>
-            <state>true</state>
+            <state>false</state>
             <options>
                 <option name="modalClass" xsi:type="string">admin-usage-notification</option>
                 <option name="title" xsi:type="string" translate="true">Allow admin usage data collection</option>

@@ -1,0 +1,15 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+		<!-- Local Resources -->
+		<!-- <css src="style.css" /> -->
+		<!-- <script src="Magento_Catalog::js/myjs.js" /> -->
+		<!-- <link src="js/myjs/js" /> -->
+
+		<!-- External Resources -->
+		<!-- <css src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" src_type="url" />
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" src_type="url" />
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" src_type="url" />
+		<link rel="stylesheet" type="text/css" src="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700" src_type="url" /> -->
+
+	</head>
+</page>
