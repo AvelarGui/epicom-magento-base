@@ -188,6 +188,8 @@ button.primary:focus,
 
 
 
+
+/* Mageplaza BannerSlider */
 ul[role="menu"] [data-ui-id^="menu-mageplaza"] strong:before{
     display: none;
 }
@@ -196,7 +198,7 @@ ul.item-bannerslider ul li.item-configuration{
     display: none;
 }
 
-
+.mageplaza-extensions .title:before{ display: none; }
 
 
 
