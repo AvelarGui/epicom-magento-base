@@ -202,4 +202,68 @@ ul.item-bannerslider ul li.item-configuration{
 
 
 
+/* Atalhos */
+.shortcuts{
+    background: #f8f8f8;
+    margin: 0 0 20px 0;
+    padding: 20px;
+}
+
+.shortcuts h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.shortcuts .items{
+    display: flex;
+    align-items: center;
+}
+.shortcuts a, .shortcuts a:hover{
+    text-decoration: none;
+}
+.shortcuts .item{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    background: #fff;
+    border: 1px solid #e6e4e4;
+    text-align: center;
+    flex-direction: column;
+}
+
+.shortcuts .item:before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+.shortcuts .item.dados:before{
+    background-image: url(../images/shop.png);
+}
+.shortcuts .item.logotipo:before{
+    background-image: url(../images/photo.png);
+}
+.shortcuts .item.cores:before{
+    background-image: url(../images/color-palette.png);
+}
+.shortcuts .item.pagamento:before{
+    background-image: url(../images/payment-methods.png);
+}
+.shortcuts .item.entrega:before{
+    background-image: url(../images/delivery-truck.png);
+}
+
+.shortcuts .item span{
+    color: #000;
+    font-size: 11px;
+    line-height: 12px;
+    margin-top: 12px;
+}
+
+.shortcuts .item:hover{
+    background: #efefef;
+}
+
 

@@ -5,6 +5,40 @@
  */
 ?>
 
+
+<div class="col-m-12">
+    <div class="shortcuts">
+        <h2 class="title">Principais Atalhos:</h2>
+        <div class="items dados">
+            <a href="<?php echo $block->getUrl('admin/system_config/index'); ?>">
+                <div class="item dados">
+                    <span>Dados da <br> Loja</span>
+                </div>
+            </a>
+            <a href="<?php echo $block->getUrl('theme/design_config/edit/scope/stores/scope_id/1'); ?>">
+                <div class="item logotipo">
+                    <span>Editar <br> Logotipo</span>
+                </div>
+            </a>
+            <a href="#">
+                <div class="item cores">
+                    <span>Cores do <br> Layout</span>
+                </div>
+            </a>
+            <a href="<?php echo $block->getUrl('admin/system_config/edit/section/payment'); ?>">
+                <div class="item pagamento">
+                    <span>Formas de <br> Pagamento</span>
+                </div>
+            </a>
+            <a href="<?php echo $block->getUrl('admin/system_config/edit/section/carriers'); ?>">
+                <div class="item entrega">
+                    <span>Formas de <br> Entrega</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
 <div class="dashboard-container row">
     <div class="dashboard-main col-m-8 col-m-push-4">
         <div class="dashboard-diagram-container">

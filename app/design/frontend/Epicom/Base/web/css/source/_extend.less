@@ -1,5 +1,25 @@
+@themeColor: #f60; //variable
+@color-text: #cdaa6a; //variable
+.page-header{
+    background-color: @themeColor;
+    color: @color-text;
+}
+
+// Padrões
+select, input[type="text"], input[type="password"], input[type="url"], input[type="tel"], input[type="search"], input[type="number"], input[type="datetime"], input[type="email"], .am-login-popup .input-text {
+    height: 40px;
+    border-radius: 5px;
+    padding: 4px 15px;
+    color: #333;
+    border: 1px solid #c7c7c7;
+}
+
 // Header
 
+.checkout-index-index .page-header {
+    border-bottom: 1px solid #cccccc !important;
+    margin-bottom: 20px !important;
+}
 
 // Search
 .block-search input{
@@ -15,14 +35,14 @@
 
 
 // Menu
-
-.nav-sections{ margin-bottom: 10px; }
+.nav-sections{ margin-bottom: 30px; }
 .cms-home.cms-index-index .nav-sections{ margin-bottom: 0px; }
 
 .navigation .level0 > .level-top:hover, .navigation .level0 > .level-top.ui-state-focus{
 	background: rgba(0,0,0,0.1);
 }
-.navigation .level0.active > .level-top, .navigation .level0.has-active > .level-top{
+.navigation .level0.active > .level-top, .navigation .level0.has-active > .level-top,
+.block-collapsible-nav .item.current a, .block-collapsible-nav .item.current>strong{
 	border-color: #c32d60;
 }
 
@@ -73,8 +93,93 @@
     border-color: #22142f;
 }
 
+.page-header .header.content .genral-content .top-content .itens-content .minicart-wrapper .actions .primary .action.primary {
+    background-color: #31bd16;
+    border: 1px solid #31bd16;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+& when (@media-common = true) {
+  .field.street {
+    .field {
+      .label {
+        clip: inherit;
+        width: inherit;
+        height: inherit;
+        position: inherit;
+      }
+    }
+  }
+}
 
 
+// Campos
+
+// .checkout-index-index #checkout li#shipping{
+//     min-height: 700px;
+// }
+
+.opc-wrapper .form-login, .opc-wrapper .form-shipping-address {
+    max-width: 600px;
+}
+
+.field .control._with-tooltip input{ width: 100%; }
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.firstname"],
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.street.2"],
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.city"] {
+    width: 40%;
+    margin-right: 5%;
+    float: left;
+}
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.lastname"],
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.street.1"],
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.street.3"],
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.region_id"] {
+    width: 55%;
+    float: right;
+}
+
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.firstname"] {
+    width: 40%;
+    margin-right: 5%;
+    float: left;
+}
+
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.street.0"],
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.street.1"],
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.street.2"],
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.street.3"] {
+    margin: 0 0 20px;
+}
+
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.street.0"]{
+	width: 75%;
+	float: left;
+}
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.street.1"]{
+	width: 20%;
+}
+
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.postcode"], 
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.vat_id"] {
+    width: 100%;
+}
+
+.checkout-index-index #checkout .opc-wrapper ol #shipping #checkout-step-shipping form .fieldset [name="shippingAddress.country_id"]{
+    display: none;
+}
 
 
+.opc-wrapper .shipping-address-item.selected-item {
+    border-color: #bf2c5e;
+}
+.opc-wrapper .shipping-address-item.selected-item:after {
+    background: #bf2c5e;
+}
 
+ 

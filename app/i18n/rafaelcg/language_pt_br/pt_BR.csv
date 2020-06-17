@@ -822,7 +822,6 @@ Region/State,Região/estado
 "ZIP/Postal Code","Código Postal"
 City,Cidade
 "Street Address",Endereço
-"Street Address Line 2",Complemento
 "VAT Number",CPF/CNPJ
 "Single-Store Mode","Modo de Loja Única"
 "Enable Single-Store Mode","Habilitar Modo Loja Única"
@@ -2729,7 +2728,7 @@ Error!,Erro!
 "Estimate Tax","Consultar Valor do Imposto"
 "Estimate Shipping and Tax","Consultar Valor do Frete e Imposto"
 "Order #","Pedido #"
-"Proceed to Checkout","Avançar para o Checkout"
+"Proceed to Checkout","Finalizar Compra"
 "Your order number is: %1.","O número do seu pedido é: %1."
 "Your order # is: <span>%1</span>.","Seu pedido # é: <span>%1</span>."
 "We'll email you an order confirmation with details and tracking info.","Enviaremos para você um e-mail de confirmação do seu pedido com detalhes e informações de rastreamento."
@@ -2820,7 +2819,7 @@ items,itens
 "Select Method","Selecione o Método"
 "Method Title","Título do Método"
 "Carrier Title","Título da Transportadora"
-"Sorry, no quotes are available for this order at this time","Desculpe-nos, sem cotação disponível para este pedido agora"
+"Sorry, no quotes are available for this order at this time","Digite seu CEP para verificar a disponibilidade de entrega"
 "Item in Cart","Item no Carrinho"
 "Items in Cart","Itens no Carrinho"
 "Require Customer To Be Logged In To Checkout","Exigir que o Cliente esteja logado para o Checkout"
@@ -3161,7 +3160,7 @@ Company:,Empresa:
 "VAT/TAX ID",CPF/CNPJ
 "Re-seller ID","ID da Revenda"
 "Legal Address","Endereço Padrão"
-"Please select a region, state or province.","Por favor, selecione uma região, estado ou província."
+"Please select a region, state or province.","Informe o Estado."
 "Phone Number","Número do Telefone"
 "Company Administrator","Administrador da Empresa"
 "Job Title",Cargo
@@ -11707,5 +11706,9 @@ Translate,Traduzir
 "Enter valid SKU key","Digite uma chave SKU válida"
 "Swatch and Admin are the required fields in the each row.","Swatch e Admin são os campos obrigatórios em cada linha."
 "The widget %1 is no longer available. Select a different widget.","O widget %1 não está mais disponível. Selecione um widget diferente."
-"Endereço: Line 1","Endereço"
-"Endereço: Line 2","Número"
+"Line 1","Rua"
+"Endereço: Line 1","Rua"
+"Line 2","Número"
+"Line 3","Complemento"
+"Line 4","Bairro"
+
