@@ -65,10 +65,6 @@ class Processor implements ContentProcessorInterface
     public function processContent(File $asset)
     {
 
-        
-        $array = [];
-        $array['themeColor'] = '#000';
-        $array['color-text'] ='#000000';
 
         $path = $asset->getPath();
         try {
@@ -92,7 +88,6 @@ class Processor implements ContentProcessorInterface
             gc_disable();
             $parser->parseFile($tmpFilePath, '');
 
-            //$parser->ModifyVars($array);
 
             $content = $parser->getCss();
             gc_enable();
